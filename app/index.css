@@ -1,0 +1,212 @@
+body {
+    padding-top: 45px;
+}
+
+/*http://estudiopatagon.com/themes/wordpress/veenv2/selector/*/
+
+a {
+    color: #596172;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+a, button, input[type=button], input[type=submit], label {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+a:hover {
+    color: #FF486A;
+}
+
+.title {
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 40px;
+    line-height: 1.45;
+    letter-spacing: 0px;
+    color: #242323;
+}
+
+.spinner-wrapper {
+    position: absolute;
+    margin: auto;
+    top:50%;
+    bottom: 0;
+    left: 50%;
+    right: 0;
+}
+
+.album-item {
+    max-width: 990px;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+    padding: 0 20px 40px;
+}
+
+.album-item header {
+    position: relative;
+    z-index: 1;
+}
+
+div.album-columns article .post-format-wrapper {
+    margin-bottom: 10px;
+}
+div.album-columns .post-format-wrapper {
+    position: relative;
+    z-index: 2;
+    padding: 0;
+}
+
+div.album-columns.grid-items article a.thumb {
+    min-height: 265px;
+}
+div.album-columns article a.thumb {
+    display: block;
+    min-height: 280px;
+}
+.thumb {
+    position: relative;
+    z-index: 1;
+    min-height: 80px;
+}
+.epcl-loader {
+    position: relative;
+}
+
+.full-link, .thumb .fullimage {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%!important;
+    z-index: 1;
+}
+.lazy.loaded, [data-lazy=true].loaded {
+    opacity: 1;
+}
+.cover {
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
+}
+.lazy, [data-lazy=true] {
+    opacity: 0;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+div.album-columns.grid-posts article .post-title {
+    max-width: none;
+    left: 20px;
+    right: 20px;
+    bottom: 15px;
+    font-size: 24px;
+}
+div.album-columns article .post-title {
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+    z-index: 3;
+    margin: 0;
+    padding: 15px 30px;
+    padding: 0;
+    max-width: 55%;
+    text-align: left;
+}
+
+div.album-columns.grid-posts article .post-title a {
+    border-width: 5px;
+}
+div.album-columns article .post-title a {
+    display: inline;
+    border-width: 8px;
+    text-decoration: none;
+}
+
+.mask {
+    background: #fff;
+}
+
+div.meta {
+    color: #424851;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.meta .meta-info {
+    margin-right: 12px;
+    font-size: 15px;
+}
+
+div.meta a {
+    color: #424851;
+}
+
+div.meta a:hover {
+    color: #FF486A;
+}
+
+div.meta .meta-info {
+    margin-right: 12px;
+    font-size: 15px;
+}
+time:not(.icon) {
+    position: relative;
+    padding-left: 20px;
+    color: #424851;
+}
+
+time:not(.icon):before {
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #FF486A;
+    position: absolute;
+    left: 0px;
+    top: 50%;
+    margin-top: -3px;
+    border-radius: 50%;
+    -webkit-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.carousel-inner > .carousel-item {
+    height: 400px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23aaa' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+/*@media (min-width: 768px) {*/
+/*    .album-columns {column-count: 3;}*/
+/*}*/
+
+/* Large devices (desktops, 992px and up) */
+/*@media (min-width: 992px) {*/
+/*    .album-columns {column-count: 4;}*/
+/*}*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+/*@media (min-width: 1200px) {*/
+/*    .album-columns {column-count: 4;}*/
+/*}*/
