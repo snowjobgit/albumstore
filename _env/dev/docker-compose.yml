@@ -14,22 +14,9 @@ services:
       - ${WORK_DIR}/dist:/var/www/html
     environment:
       - VIRTUAL_HOST=${DOMAIN_FRONTEND}
-#    depends_on:
-#      - react-dev
     networks:
       - reverse-proxy
       - default
-
-#  react-dev:
-#    build:
-#      context: react
-#    command: /starter.sh
-#    volumes:
-#      - ${WORK_DIR}:/home/node/react
-#    environment:
-#      - NODE_ENV=development
-#    networks:
-#      - default
 
   workspace:
     build:
